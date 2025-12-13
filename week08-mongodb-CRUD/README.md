@@ -1,4 +1,4 @@
-# Week 7 – MongoDB CRUD Operations with Node.js and Mongoose
+# Week 8 – MongoDB CRUD Operations with Node.js and Mongoose
 
 This task focuses on integrating MongoDB CRUD (Create, Read, Update, Delete) operations into a Node.js application using Mongoose. The objective of the lab was to demonstrate how database interactions can be performed programmatically rather than directly through the MongoDB shell or Compass.
 
