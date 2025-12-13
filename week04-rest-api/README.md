@@ -27,4 +27,4 @@ This task focuses on building a basic REST API using Node.js and the Express fra
 ## Evidence
 - All source files for the REST API implementation are included in this directory
 - API responses were tested using a web browser and verified through terminal output
-- Screenshots of application output are included in the Word portfolio
+  
