@@ -41,4 +41,4 @@ This task introduces the fundamentals of React programming, focusing on creating
 ## Evidence
 - All React source files for the completed tasks are included in this directory
 - Application output was verified in the browser using `npm start`
-- Screenshots demonstrating component rendering and interaction are included in the Word portfolio
+
