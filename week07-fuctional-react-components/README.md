@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Week 5 – React Functional Components and Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This task focuses on building interactive user interface components using React functional components and Hooks. The lab introduces state management with `useState`, side effects with `useEffect`, and passing data through props to create reusable and dynamic components.
 
-## Available Scripts
+## Technologies Used
+- React
+- JavaScript (ES6)
+- JSX
+- Node.js
+- React Hooks (`useState`, `useEffect`)
+- Visual Studio Code
 
-In the project directory, you can run:
+## Task Overview
+- Created a React application using `create-react-app`
+- Developed functional components using modern React syntax
+- Implemented state management with the `useState` hook
+- Built a click counter component to track user interactions
+- Created an emoji counter component that updates dynamically based on props
+- Imported and displayed images within React components
+- Used the `useEffect` hook to update component state in response to prop changes
+- Rendered multiple components with different properties in the main application
+- Built an interactive mood-based widget that combines counters, images, and user interaction
 
-### `npm start`
+## Key Concepts Demonstrated
+- Functional components in React
+- State management using Hooks
+- Handling user events in React
+- Using props to create reusable components
+- Dynamic rendering of images
+- Managing side effects with `useEffect`
+- Component composition and reusability
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Files Included
+- `src/index.js` – Application entry point rendering multiple components
+- `src/Counter.js` – Click counter component using `useState`
+- `src/EmojeeCounters.js` – Emoji counter component using `useState` and `useEffect`
+- Image assets used by components (e.g. Love, Like, Sad)
+- Supporting CSS files for styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Evidence
+- All React source files for the completed tasks are included in this directory
+- The application was tested using `npm start`
+- Screenshots of the running application and component output are included
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
