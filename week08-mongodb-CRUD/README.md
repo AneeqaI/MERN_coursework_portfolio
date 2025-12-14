@@ -37,3 +37,4 @@ This task focuses on integrating MongoDB CRUD (Create, Read, Update, Delete) ope
 ## Evidence
 - All required MongoDB CRUD operations are implemented in the source code
 - Database changes were verified using MongoDB Compass
+- Terminal output screenshots demonstrating successful execution are included
