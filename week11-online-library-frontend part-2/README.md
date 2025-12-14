@@ -1,50 +1,70 @@
-# Week 10 – MERN Backend Development with REST API
+# Getting Started with Create React App
 
-This task focuses on developing the backend of a MERN (MongoDB, Express, React, Node.js) application by implementing a RESTful API for an online library system. The objective of the lab was to design and implement server-side functionality that supports full CRUD (Create, Read, Update, Delete) operations on a MongoDB database and exposes these operations through HTTP endpoints.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technologies Used
-- JavaScript
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- CORS
-- Visual Studio Code
+## Available Scripts
 
-## Task Overview
-- Initialised a Node.js backend application using npm
-- Installed and configured Express, Mongoose, MongoDB, and CORS
-- Designed a MongoDB schema and model to represent book data
-- Implemented a dedicated database connection module using Mongoose
-- Developed a REST API server to handle client requests
-- Implemented CRUD operations for managing books in the database
-- Used asynchronous programming with `async/await` and Promises
-- Tested API endpoints locally to verify correct database interaction
+In the project directory, you can run:
 
-## REST API Endpoints Implemented
-- `GET /allbooks` – Retrieve all books from the database
-- `GET /getbook/:id` – Retrieve a single book by its unique ID
-- `POST /addbooks` – Add a new book to the database
-- `POST /updatebook/:id` – Update an existing book by ID
-- `POST /deleteBook/:id` – Delete a book by ID
+### `npm start`
 
-## Database Design
-The MongoDB database stores book records with the following attributes:
-- `booktitle`
-- `PubYear`
-- `author`
-- `Topic`
-- `formate`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Each record is automatically assigned a unique `_id` by MongoDB, which is used to identify and update individual documents.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Files Included
-- `Server.js` – Main Express server file defining REST API endpoints
-- `BooksSchema.js` – Mongoose schema and model for book data
-- `MongoDBConnect.js` – Database connection configuration using Mongoose
-- `package.json` – Project configuration and dependencies
+### `npm test`
 
-## Evidence
-- All backend source files implementing the REST API are included in this directory
-- CRUD operations were verified using MongoDB Compass and API requests
-- Screenshots demonstrating successful API responses and database updates are included in the Word portfolio
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
